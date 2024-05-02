@@ -1,0 +1,54 @@
+.input-wrapper {
+  width: 50%;
+  height: 5rem;
+  border: none;
+  border-radius: 10px;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ff9696;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease; /* Add transition for smooth effect */
+  position: fixed; /* Set position to fixed */
+  top: 20px; /* Adjust top position */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  margin-top: 200px;
+}
+
+.input-wrapper:focus-within {
+  border-color: blue;
+  box-shadow: 0px 0px 12px #6cb2eb; /* Change box shadow color */
+}
+
+.input-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+  transition: all 0.3s ease;
+  pointer-events: none; /* Ensure this layer doesn't interfere with clicks */
+}
+
+.input-wrapper:focus-within::before {
+  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 100%);
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 2rem!important;
+  width: 100%;
+  margin-left: 5px;
+}
+
+input:focus {
+  outline-color: transparent!important;
+  box-shadow: none!important;
+}
+
+#search-icon {
+  color: royalblue;
+}

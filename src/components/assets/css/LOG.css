@@ -1,0 +1,203 @@
+.log
+{
+    margin: 50px;
+    padding: 0;
+}
+.register{
+    background: -webkit-linear-gradient(left, #d8810f, #cc380b);
+}
+
+
+
+.register-left img{
+    margin-left: 60px;
+    margin-top: 15%;
+    width: 50%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left h3{
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    margin-right: 30px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.register-right{
+    background: #f8f9fa;
+    margin-left: 240px;
+    margin-top: -260px;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #b63a29;
+    color: #fff;
+    font-weight: 600;
+    width: 250px;
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+}
+.btnRegister:hover{
+    color: rgb(255, 255, 255)!important;
+    background: #e78080;
+}
+
+
+
+
+
+
+
+
+
+.register .nav-tabs{
+    margin-top: -40px;
+    margin-right: 165px;
+    border: none;
+    background: #b63a29;
+    border-radius: 1.5rem;
+    width: 60%;
+    float: right;
+}
+
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover{
+    border: none;
+    color: #ccbeff!important;
+
+}
+.register .nav-tabs .nav-link.active{
+    width: 180px;
+    color: #b63a29;
+    border: 2px solid #b63a29;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+.register .nav-tabs1{
+    margin-top: -40px;
+    margin-right: 200px;
+    border: none;
+    background: #b63a29;
+    border-radius: 1.5rem;
+    width: 50%;
+    float: right;
+}
+
+
+.register .nav-tabs1 .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+
+}
+
+.register .nav-tabs1 .nav-link:hover{
+    border: none;
+    color: #ccbeff!important;
+
+}
+.register .nav-tabs1 .nav-link.active{
+    width: 150px;
+    color: #b63a29;
+    background-color: #ffffff;
+    border: 2px solid #b63a29;
+
+}
+
+
+
+
+#login-tab.active{
+    width: 150px;
+    color: #b63a29;
+    background-color: #ffffff;
+    border: 2px solid #b63a29;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+
+
+#forget-tab.active{
+    width: 150px;
+    color: #b63a29;
+    background-color: #ffffff;
+    border: 2px solid #b63a29;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+
+
+
+
+
+
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -14%;
+    color: #495057;
+}
